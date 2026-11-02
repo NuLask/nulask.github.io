@@ -12,3 +12,16 @@
 
 .credential-sub-link{display:inline-block;margin-top:.45rem;color:var(--muted);font-size:.95rem;}
 .credential-sub-link:hover{color:var(--accent);}
+
+/* Color-based PDF extraction project illustration (non-sensitive mock content) */
+.art-extraction{display:flex;align-items:center;justify-content:center;gap:20px;background:radial-gradient(circle at 35% 50%,#22516a,#0f2238 75%);padding:26px}
+.pdf-sheet{width:120px;height:160px;background:#e7f0f4;border-radius:5px;padding:14px 12px;box-shadow:0 10px 30px #0005;transform:rotate(-5deg)}
+.pdf-heading{color:#42627a;font:700 10px ui-monospace,monospace}
+.sample-line{height:7px;background:#afc7cf;border-radius:10px;margin-top:16px}
+.sample-line.short{width:65%;margin-top:8px}
+.sample-highlight{color:#1c8da8;font:700 10px ui-monospace,monospace;border-bottom:4px solid #1b99bc;padding:10px 0 3px}
+.extract-flow{font-size:35px;color:var(--accent)}
+.extraction-output{width:127px;height:130px;border:1px dashed #6ee5d2;border-radius:7px;background:repeating-conic-gradient(#203f50 0% 25%,#29495a 0% 50%) 50%/22px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#c8fffa;gap:8px;font:700 9px ui-monospace,monospace}
+.isolated-mark{width:65px;height:34px;border-radius:20px 6px 20px 4px;background:#3aaed6;transform:rotate(-9deg);font-size:0}
+.extraction-output small{font-size:8px}
+@media(max-width:380px){.art-extraction{gap:12px}.pdf-sheet{width:105px}.extraction-output{width:104px}}
