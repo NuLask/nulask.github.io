@@ -1,126 +1,26 @@
-# Luis Santiago Portfolio
+# Luis Santiago — Personal Portfolio
 
-Personal portfolio website showcasing projects, technical skills, certifications, academic achievements, and professional experience.
+A personal portfolio showcasing my journey as a Computer Engineering student at Universidad Ana G. Méndez, Puerto Rico.
 
-Built as a lightweight static website using HTML, CSS, and JavaScript, making it easy to maintain, deploy, and customize without additional frameworks or build tools.
+The website highlights my technical projects, undergraduate research, engineering experience, community involvement, and professional development.
 
-## Features
+## Portfolio Highlights
 
-- Responsive design for desktop, tablet, and mobile devices
-- Project showcase with descriptions and technologies used
-- Certifications and professional development credentials
-- Academic highlights and engineering experience
-- Lightweight static architecture with no backend dependencies
-- GitHub Pages compatible deployment
+- **Projects:** C++ CPU Scheduling Simulator, MATLAB Image Analysis using SVD, and engineering design projects.
+- **Experience:** MIIAC Energy Auditor Trainee and NSF PR-LSAMP Undergraduate Research Fellow.
+- **Community:** ACS Student Chapter, STEM outreach, and academic involvement.
+- **Certifications:** Claude Academy and MathWorks MATLAB Onramp credentials.
 
-## Technologies
+## Built With
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- GitHub Pages
+HTML5 · CSS3 · JavaScript
 
-## Local Development
+Hosted using GitHub Pages.
 
-No installation or build process is required.
+## Live Website
 
-### Option 1: Open Directly
+[View My Portfolio](https://YOUR-USERNAME.github.io/)
 
-Open `index.html` in your browser.
+## About
 
-### Option 2: Run a Local Server
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-http://localhost:8000
-
-## Project Structure
-
-```text
-/
-├── index.html
-├── styles.css
-├── script.js
-├── assets/
-│   ├── images
-│   ├── certificates
-│   └── badges
-├── README.md
-└── .nojekyll
-```
-
-## Deployment
-
-This site is designed for deployment through GitHub Pages.
-
-### Personal Site
-
-1. Create a public repository named:
-
-   ```
-   username.github.io
-   ```
-
-2. Upload all project files to the repository root.
-
-3. Navigate to:
-
-   ```
-   Settings → Pages
-   ```
-
-4. Configure:
-
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/ (root)`
-
-5. Save the configuration and wait for deployment.
-
-Your site will be available at:
-
-```
-https://username.github.io
-```
-
-### Project Repository
-
-If deploying from a repository such as:
-
-```
-portfolio
-```
-
-your site will be available at:
-
-```
-https://username.github.io/portfolio/
-```
-
-## Certifications
-
-The portfolio includes professional development and training credentials, including:
-
-- Claude 101
-- AI Fluency: Framework and Foundations
-- MathWorks MATLAB Onramp
-
-Certificate assets are stored locally within the repository to ensure reliability and avoid external dependencies.
-
-## Maintenance Notes
-
-Before publishing updates:
-
-- Verify project information remains current.
-- Review GPA, dates, certifications, and achievements.
-- Confirm permission for any third-party images or media.
-- Test responsiveness across multiple screen sizes.
-- Ensure all assets load correctly after deployment.
-
-## License
-
-This project is intended as a personal portfolio website. Content, certificates, and project materials remain the property of their respective owners where applicable.
+This website is maintained as a collection of my academic and professional accomplishments. It will continue to evolve as I complete new projects, certifications, and research experiences.
