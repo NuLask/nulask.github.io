@@ -25,3 +25,7 @@
 .isolated-mark{width:65px;height:34px;border-radius:20px 6px 20px 4px;background:#3aaed6;transform:rotate(-9deg);font-size:0}
 .extraction-output small{font-size:8px}
 @media(max-width:380px){.art-extraction{gap:12px}.pdf-sheet{width:105px}.extraction-output{width:104px}}
+
+/* Revised illustration for color-based PDF extraction project */
+.art-extraction{padding:0;overflow:hidden;background:#10243A}
+.art-extraction img{display:block;width:100%;height:100%;object-fit:cover}
