@@ -32,3 +32,5 @@ Artwork uses a fixed-height frame with `object-fit: contain`, so the entire illu
 Canonical and structured-data URLs use https://nulask.github.io/. Update them if the deployment URL changes. The Content Security Policy includes a hash of the JSON-LD block; regenerate that hash if editing the structured data.
 
 No repository, résumé, research output, project evidence, or social-preview URLs were invented. Add these only when the actual resources are available. Hosting headers and real browser/device validation remain deployment checks.
+
+Claude Platform 101 (issued November 6, 2026) is included with its original PDF, responsive preview assets, and direct verification URL.

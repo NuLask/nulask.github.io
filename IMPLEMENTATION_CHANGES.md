@@ -1381,3 +1381,7 @@ Passed JavaScript syntax and menu state/focus unit checks; asset and anchor reso
 ## Content-dependent follow-ups
 
 Real repository/demo links, résumé and research evidence, and a dedicated social-preview image require authentic source material. No placeholders or invented claims were added. Paint-effect reductions were not applied without evidence of performance problems.
+
+## Added credential: Claude Platform 101
+
+Added as the newest credential, issued November 6, 2026. Uses the supplied verification URL and original PDF. The preview is extracted from the PDF image itself, excluding the separate white verification footer without cropping the badge. PNG and responsive WebP versions preserve the original 22:15 proportions.

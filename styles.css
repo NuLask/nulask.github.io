@@ -1033,3 +1033,8 @@ section:focus-visible {
     height: 210px;
   }
 }
+
+/* Preserve the original Platform 101 badge proportions. */
+.badge-platform .badge-image-link img {
+  aspect-ratio: 22 / 15;
+}
