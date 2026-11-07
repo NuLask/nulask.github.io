@@ -1,47 +1,34 @@
-# Luis Santiago — Portfolio Website (updated November 2026)
+# Luis Santiago — Portfolio
 
-Static, responsive HTML/CSS/JavaScript portfolio. No packages, build tools, or backend required.
+A personal portfolio highlighting my Computer Engineering projects, undergraduate research, technical experience, community involvement, and course-completion credentials.
 
-## What changed
-- Added **Claude Academy badge images rendered from your original PDFs**, stored locally in `assets/` (not hotlinked).
-- Correctly labeled **AI Fluency: Framework and Foundations** (Claude Academy, issued Oct 31, 2026) and **Claude 101** (issued Oct 30, 2026).
-- Both badge images link to their official Claude Academy badge pages, with downloadable PDF certificates also included.
-- Kept the MathWorks MATLAB Onramp certificate and existing portfolio content.
+**Website:** https://nulask.github.io/
 
-The PDF certificates display the recipient name **Luis Á. Santiago**. Badges represent **course completion**, not cloud-provider professional certifications.
+## Projects
 
-## Preview
-Open `index.html` in a browser. Or run `python -m http.server 8000` from this directory and open `http://localhost:8000`. Check that the two orange badges load.
+- CPU Scheduling Simulator — C++
+- Image Analysis with Singular Value Decomposition — MATLAB
+- Innovación Vial Inteligente — Engineering design
+- Color-Based PDF Content Extraction — Python, OpenCV, NumPy, PyMuPDF
 
-## Publish using GitHub Pages — personal site
-1. Sign in to https://github.com.
-2. Create a **Public** repository named exactly `YOUR-USERNAME.github.io`, replacing `YOUR-USERNAME` with your real GitHub username (not display name). Initialize it or upload files directly.
-3. **Extract the ZIP first.** Inside `portfolio-site`, select `index.html`, `styles.css`, `script.js`, `.nojekyll`, `README.md` and the **assets** folder, and upload these contents to the repository root. `index.html` must NOT be nested in another `portfolio-site` directory. GitHub's web uploader may omit empty files like `.nojekyll` — that's fine for this site.
-4. Commit changes on `main`.
-5. In the repository select **Settings → Pages → Build and deployment**. Set **Source: Deploy from a branch**, **Branch: main**, **Folder: /(root)**; press **Save**.
-6. Once deployment completes, visit `https://YOUR-USERNAME.github.io/`. You can check the deployment under the repository's Actions tab or Pages settings.
+## Technologies
 
-## Existing repository / alternative
-For an existing personal-site repository, commit the extracted files to its root, replacing the earlier website files. If you prefer a project repository such as `portfolio`, the address is `https://YOUR-USERNAME.github.io/portfolio/` using the same Pages branch settings. All CSS/JS/image paths are relative to `index.html`.
+HTML · CSS · JavaScript (no frameworks or build step)
 
-## Updates and checks
-- Keep file names and paths intact: `assets/claude-ai-fluency.png` and `assets/claude-101.png`.
-- If images are broken, check filenames, capitalization and that `assets/` was uploaded.
-- Recheck GPA, timelines, Honors Program membership, and outside contributors' media rights before publishing.
-- Add approved project screenshots / event photos when available.
-- No site is live until you publish it to GitHub.
+## Run locally
 
+Open `index.html` in a browser, or run `python -m http.server 8000` from the project directory and visit `http://localhost:8000`.
 
-## Claude Academy certificates
+## Deploy
 
-This version uses images rendered from the original PDF certificates for on-page display.
-The original PDF files are also included in `assets/`:
+This site is configured for GitHub Pages. Place `index.html`, `styles.css`, `script.js`, the `assets/` directory, and `.nojekyll` in the repository root. In **Settings → Pages**, select **Deploy from a branch**, `main`, and `/(root)`.
 
-- `assets/claude-ai-fluency.pdf`
-- `assets/claude-101.pdf`
+Claude Academy credential images are rendered from the original certificate PDFs. The website links to the official per-credential verification pages.
 
-These can be opened directly from the published site or linked in the credentials section.
+## Production corrections
 
-## Added personal project: Color-Based PDF Content Extraction
+Artwork uses a fixed-height frame with `object-fit: contain`, so the entire illustration remains visible without distortion. Empty space is intentional when image and card proportions differ. Certificate images have corrected intrinsic dimensions and responsive WebP candidates with PNG fallbacks. Navigation remains available without JavaScript and supports Escape and breakpoint focus handling.
 
-Project source supplied separately as `colortextExtraction-main.zip`. The portfolio describes its actual script implementation (PyMuPDF 300-DPI rendering, HSV color masking, Canny edges, morphology, and mask/opaque/transparent PNG outputs). No sample signatures or source PDFs are published in the portfolio. The visual is an illustrative CSS graphic, not a real output sample.
+Canonical and structured-data URLs use https://nulask.github.io/. Update them if the deployment URL changes. The Content Security Policy includes a hash of the JSON-LD block; regenerate that hash if editing the structured data.
+
+No repository, résumé, research output, project evidence, or social-preview URLs were invented. Add these only when the actual resources are available. Hosting headers and real browser/device validation remain deployment checks.
